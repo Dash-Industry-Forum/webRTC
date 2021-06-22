@@ -2,6 +2,23 @@
 
 ## Scope
 
+- Check use cases
+- Identify existing technologies
+- Develop basic architecture and call flows (app-based, SDP?, dynamics)
+  - Session handling
+  - Different experiences
+  - DRM
+- Synergies and overlaps with DASH/CMAF
+- Identify gaps and requirements
+- Identify next steps
+- Publish this in a white paper/position paper
+- Possibly outcomes
+   - completely different than DASH, nothing for DASH-IF
+   - synergies and overlaps, can for example parts of DASH be used in this.
+
+## Guidance
+- DASH-IF Participation Policy (check ATSC Notes)
+
 ## Deliverables
 
 ## Documents
