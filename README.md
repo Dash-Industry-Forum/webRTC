@@ -23,7 +23,7 @@ Based on the above background, an activity is started in DASH-IF to investigate 
 The possible outcome of the work may be that we identify overlaps with DASH to explore in DASH-IF or defer work to possibly other organizations.
 
 ## DASH-IF Policy
-All calls and discussion within this group are subject to the DASH-IF bylaws (can be found at: http://dashif.org/membership/) and the DASH-IF working procedures. All participants, by participating in this call agree that  their contributions are bound by [DASH-IF IPR policies] (https://dash-industry-forum.github.io/docs/DASH-IF-IPR-Policy-Appendix-B-11-06-2018.pdf) as it applies to the DASH-IF members. 
+All calls and discussion within this group are subject to the DASH-IF bylaws (can be found at: http://dashif.org/membership/) and the DASH-IF working procedures. All participants, by participating in this call agree that  their contributions are bound by [DASH-IF IPR policies](https://dash-industry-forum.github.io/docs/DASH-IF-IPR-Policy-Appendix-B-11-06-2018.pdf) as it applies to the DASH-IF members. 
 
 
 ## Logistics
