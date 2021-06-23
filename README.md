@@ -27,6 +27,10 @@ All calls and discussion within this group are subject to the DASH-IF bylaws (ca
 
 
 ## Logistics
+- Leadership:
+  - Ali Begen (Comcast)
+  - Julia Kenyon (Phenix RTS)
+  - runs under DASH-IF IOP, so you may also contact Thomas Stockhammer (DASH-IF IOP chair) 
 - Dedicated group
   - https://members.dashif.org/wg/Exploration/dashboard
   - Mailing list: exploration@dashif.org
