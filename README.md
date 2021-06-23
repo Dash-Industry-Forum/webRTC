@@ -33,7 +33,13 @@ All calls and discussion within this group are subject to the DASH-IF bylaws (ca
   - open for non DASH-IF members (but DASH-IF policy applies) 
 - Webex Calls: 
   - every other Wednesday 7am pdt/4pm cest starting from June 23rd for three months until September 30, 2021
-  - details are in the calendar
+  - https://dashif.my.webex.com/dashif.my/j.php?MTID=m7ec0c86a81407f396ee824d5c85c301a
+  - Meeting number: 182 524 4638
+  - Password: 4ymTMGuFp74
+  - Join by phone
+    - +1-510-338-9438 USA Toll
+    - +49-6196-7819734 GERMANY Toll
+    - Access code: 182 524 4638
 - Github: 
   - Public repository https://github.com/Dash-Industry-Forum/webRTC
   - Collect issues here: https://github.com/Dash-Industry-Forum/webRTC/issues
@@ -45,4 +51,4 @@ All calls and discussion within this group are subject to the DASH-IF bylaws (ca
 ## Minutes and Agenda
 - Minutes are collected here: https://github.com/Dash-Industry-Forum/webRTC/discussions
 - [Kickoff June 11, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/2)
-- [June 23, 2021]
+- [June 23, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/3)
