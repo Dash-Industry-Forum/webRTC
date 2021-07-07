@@ -65,3 +65,4 @@ All calls and discussion within this group are subject to the DASH-IF bylaws (ca
 - Minutes are collected here: https://github.com/Dash-Industry-Forum/webRTC/discussions
 - [Kickoff June 11, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/2)
 - [June 23, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/3)
+- [July 07, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/5)
