@@ -38,7 +38,7 @@ All calls and discussion within this group are subject to the DASH-IF bylaws (ca
   - DASH-IF members can sign-up directly. If you are not DASH-IF member, please contact [DASH-IF IOP chair](mailto:tsto@qti.qualcomm.com) if you want to be signed up. 
 - Webex Calls: 
   - every other Wednesday 7am pdt/4pm cest starting from June 23rd for three months until September 30, 2021
-  - https://dashif.my.webex.com/dashif.my/j.php?MTID=m7ec0c86a81407f396ee824d5c85c301a
+  - https://docs.google.com/document/d/1iaWO_oAjUH-Mvrj4bzzD06YENu48RXaZx5DrJOyoT6s/edit?usp=sharing
   - Meeting number: 182 524 4638
   - Password: 4ymTMGuFp74
   - Join by phone
