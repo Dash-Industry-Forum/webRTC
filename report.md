@@ -1153,7 +1153,7 @@ Under the hood WebRTC is just a collection of JavaScript APIs. Before WebRTC, mo
 <p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](images/image18.png "image_tooltip")
 
 
 
@@ -1167,7 +1167,7 @@ For WebRTC to work we need to be able to identify or locate each other over the 
 <p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](images/image19.png "image_tooltip")
 
 
 It would be ideal for two machines to be directly addressable using their public IPv4 addresses. This is not possible because of IPv4 address exhaustion and the fact that we also need firewalls to control access over ports and IP addresses on our machines.
@@ -1179,7 +1179,7 @@ NAT (Network Address Translation) is used to give the device a public IP address
 <p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image10.png "image_tooltip")
+![alt_text](images/image20.png "image_tooltip")
 
 
 WebRTC uses the Interactive Connectivity Establishment (ICE) techniques to overcome the complexities of real-world networking. For this to happen, your application must pass ICE server URLs to RTCPeerConnections.
@@ -1195,7 +1195,7 @@ Most WebRTC calls successfully make a connection using STUN servers.
 <p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image11.png "image_tooltip")
+![alt_text](images/image21.png "image_tooltip")
 
 
 TURN (Traversal Using Relays around NAT) is meant to bypass the Symmetric NAT restriction by opening a connection with a TURN server and relaying all information through that server. A connection is required with a TURN server which will tell all the peers to send packets to the server which will then be forwarded to the requester. There will be some overhead thus it is only used when there are no other alternatives.
@@ -1209,7 +1209,7 @@ Unlike STUN servers, TURN servers have public addresses, making them easy to be 
 <p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image12.png "image_tooltip")
+![alt_text](images/image22.png "image_tooltip")
 
 
 This diagram shows in full how WebRTC works, where TURN is put into action after STUN fails, each peer resorts to using a TURN server.
@@ -1225,7 +1225,7 @@ The complete WebRTC exchange in one diagram:
 <p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image13.png "image_tooltip")
+![alt_text](images/image23.png "image_tooltip")
 
 
 A [link ](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Connectivity)to this diagram if you would like to know more.
@@ -1238,7 +1238,7 @@ A [link ](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Connectivi
 <p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image14.png "image_tooltip")
+![alt_text](images/image24.png "image_tooltip")
 
 
 If you would like to read more about the applications using WebRTC, follow these links:
