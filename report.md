@@ -101,6 +101,7 @@ Due to the COVID-19 pandemic, attending public events (such as concerts) has not
 This use case includes feedback, either video/audio from satellite locations or “like” or “applause” clicks from the audience. The feedback is processed and displayed/played on the main stage as shown in the figure below. The collected feedback from the audience is used to generate sounds based on the number of participants "applauding" (synthetic applause sound), etc. Synchronization needs depend on which kind of feedback is being provided.
 
 ![alt_text](images/image1.png "image_tooltip")
+
 **Figure 2.1-1 Interactive Events.**
 
 ### 2.2. Use Case 2: Sports Betting
@@ -133,12 +134,14 @@ Cloud gaming (a.k.a. game streaming) implies that, while the game is being playe
 A typical example is the Stadia platform and an excellent introduction is provided in [this video](https://www.youtube.com/watch?v=avtlQeaxd_I&t=438s). Some extracted high-level requirements on user experience are provided in Figure 2.5-1.
 
 ![alt_text](images/image2.png "image_tooltip")
+
 **Figure 2.5-1 Latency impacts in gaming.**
 
 A cloud gaming system is provided in Figure 2.5-2.
 
 
 ![alt_text](images/image3.png "image_tooltip")
+
 **Figure 2.5-2 Cloud gaming system.**
 
 The system design for cloud gaming is provided in  Figure 2.5-3 when for example used in the context of 5G. However, this figure is generic to any access network.
@@ -207,6 +210,7 @@ Twitch shows that games are watched live with incredible statistics ([https://su
 
 ![alt_text](images/image5.png "image_tooltip")
 
+**Figure 2.6-1 Statistics for Twitch.**
 
 * Fortnite has 1,412,048,240 watching hours over 365 days, this means it is more than 160,000 years
 
@@ -233,9 +237,7 @@ A content provider wishes to offer live streams with reduced latency compared to
 
 For this approach, ultra-low latency (less than one second) is not required. However, low cost and ability to deploy at scale are critical. Low-latency DASH and HLS can achieve latencies from encoder to client in the range of 2-4 seconds but to achieve this, the level of resilience to changing network conditions is reduced. If WebRTC could achieve similar latency but with greater resilience or with a better user experience during challenging network conditions, this would be an improvement. 
 
-As such, it may be desirable to source WebRTC streams from existing multi-bitrate encoded media prepared for DASH/HLS streaming and deliver it using existing CDN infrastructure.  \
- \
-Whilst the end-to-end latency (EEL) in this use case may not be subsecond, due to such things as contribution and backend latencies which are not always directly controllable, WebRTC can still provide for lower distribution latencies (DL) and better resilience or improved handling of challenging network conditions.
+As such, it may be desirable to source WebRTC streams from existing multi-bitrate encoded media prepared for DASH/HLS streaming and deliver it using existing CDN infrastructure. Whilst the end-to-end latency (EEL) in this use case may not be subsecond, due to such things as contribution and backend latencies which are not always directly controllable, WebRTC can still provide for lower distribution latencies (DL) and better resilience or improved handling of challenging network conditions.
 
 
 ### 2.9. Use Case 9: Interleaving Live and Pre-Recorded Content
@@ -244,7 +246,6 @@ A content provider wishes to offer live streams interspersed with pre-recorded c
 
 
 ## 3. Baseline Architecture, and KPIs for Live and Interactive Services
-
 
 ### 3.1. Baseline Architecture
 
