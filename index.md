@@ -3,7 +3,7 @@
 ## Introduction
 On May 28 this year, as part of our virtual special session series, DASH-IF invited the colleagues from Verizon Media and Phenix Real Time Solutions to provide as an overview on a WebRTC-based Premium Streaming Ecosystem. WebRTC is the foundational technology for real-time streaming online and as such has widespread support across browsers. It is used widely across many applications. However, the use of real-time streaming for professionally-produced content is highlighting gaps in WebRTC, creating the need for industry collaboration. This [talk](https://dash-industry-forum.github.io/docs/FINAL-PUBLIC-WebRTC-based%20Premium%20Streaming%20Ecosystem.pdf) explored some of these key areas and sketch out possible ways forward for the industry.
 
-Based on this discussion, a (public taskforce)[http://dashif.org/webRTC/taskforce] was formed. This task force created a (report)[http://dashif.org/webRTC/report] that was published on March 1st, 2022. Based on the conclusion of the report, DASH-IF initiated a (survey)[https://forms.gle/Yy89GGeMsXYQixBZ6]. Please respond by latest April 15, 2022 if you are interested in this topic.
+Based on this discussion, a [public taskforce](http://dashif.org/webRTC/taskforce) was formed. This task force created a [report](http://dashif.org/webRTC/report) that was published on March 1st, 2022. Based on the conclusion of the report, DASH-IF initiated a [survey](https://forms.gle/Yy89GGeMsXYQixBZ6). Please respond by latest April 15, 2022 if you are interested in this topic.
 
 ## Summary of Report
 Based on this report, the advantages of integrating DASH services with WebRTC are clear. This report has provided different use cases and summarized service requirements. A number of these use cases, especially those discussed in clause 5.2, such as insertion of pre-recorded DASH-based ads into live streams delivered via WebRTC, require the combination of DASH and WebRTC.
@@ -16,17 +16,17 @@ This report also summarizes existing technologies that are not yet in DASH and W
 * Work on extensions to DASH and WebRTC as described below.
 
 For extensions to WebRTC, the following is recommended:
-* Define and select appropriate session management/signaling protocol (potentially based on WHIP/WHAP or WHSNP), (see clause 4.3)[https://dashif.org/webRTC/report#43-session-negotiation]
-    * Define control protocol for dynamic stream switching that does not require SDP renegotiation, (see clause 5.6)[https://dashif.org/webRTC/report#56-session-modification]
-* Continue development of methods for additional security of streams, (see clause 4.4)[https://dashif.org/webRTC/report#44-webrtc-security-and-drm]
-* Define a standardized means to deliver subtitles, closed captions, and other events, (see clause 5.9.8)[https://dashif.org/webRTC/report#598-captionssubtitles]
-* Continue development of a mechanism for time synchronization of timed metadata and DASH period, (see clause 5.9.9)[https://dashif.org/webRTC/report#599-events-and-timed-metadata]
-* Collection of metrics and client metadata for WebRTC sessions and translation to existing metrics and client metadata, transmission via APIs, (see clause 5.4) [https://dashif.org/webRTC/report#54-example-client-architecture]
+* Define and select appropriate session management/signaling protocol (potentially based on WHIP/WHAP or WHSNP), [see clause 4.3](https://dashif.org/webRTC/report#43-session-negotiation)
+    * Define control protocol for dynamic stream switching that does not require SDP renegotiation, [see clause 5.6](https://dashif.org/webRTC/report#56-session-modification)
+* Continue development of methods for additional security of streams, [see clause 4.4](https://dashif.org/webRTC/report#44-webrtc-security-and-drm)
+* Define a standardized means to deliver subtitles, closed captions, and other events, [see clause 5.9.8](https://dashif.org/webRTC/report#598-captionssubtitles)
+* Continue development of a mechanism for time synchronization of timed metadata and DASH period, [see clause 5.9.9](https://dashif.org/webRTC/report#599-events-and-timed-metadata)
+* Collection of metrics and client metadata for WebRTC sessions and translation to existing metrics and client metadata, transmission via APIs, [see clause 5.4](https://dashif.org/webRTC/report#54-example-client-architecture)
 
 For DASH the following is recommended:
-* Determine APIs to be used between WebRTC clients and DASH clients, (see clause 5.6)[https://dashif.org/webRTC/report#54-example-client-architecture]
-* Define how WebRTC information is represented in MPDs, (see clause 5.9.7)[https://dashif.org/webRTC/report#597-webrtc-representation]
-* Determine whether DASH and WebRTC can both render to a single browser's video element or switch between two video elements, (see clause 5.9.5)[https://dashif.org/webRTC/report#595-webrtc-content-continuity-and-timeline]
+* Determine APIs to be used between WebRTC clients and DASH clients, [see clause 5.6](https://dashif.org/webRTC/report#54-example-client-architecture)
+* Define how WebRTC information is represented in MPDs, [see clause 5.9.7](https://dashif.org/webRTC/report#597-webrtc-representation)
+* Determine whether DASH and WebRTC can both render to a single browser's video element or switch between two video elements, [see clause 5.9.5](https://dashif.org/webRTC/report#595-webrtc-content-continuity-and-timeline)
 * Support hybrid operations with WebRTC and DASH HTTP-based operations
 
 In order to address the different topics, different organizations may have to be involved. However, it is expected that based on the analysis and proprietary deployments, quite many technology enablers are in place and a basic system can be deployed. It is considered beneficial to create deployment guidelines to support interoperability for WebRTC-based streaming based on existing practices. Such guidelines may also be supported by reference tools and/or test services.
