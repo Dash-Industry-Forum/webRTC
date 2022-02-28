@@ -23,7 +23,7 @@ Based on the above background, an activity is started in DASH-IF to investigate 
 The possible outcome of the work may be that we identify overlaps with DASH to explore in DASH-IF or defer work to possibly other organizations.
 
 ## DASH-IF Policy
-All calls and discussion within this group are subject to the DASH-IF bylaws (can be found at: http://dashif.org/membership/) and the DASH-IF working procedures. All participants, by participating in this call agree that  their contributions are bound by [DASH-IF IPR policies] (https://dash-industry-forum.github.io/docs/DASH-IF-IPR-Policy-Appendix-B-11-06-2018.pdf) as it applies to the DASH-IF members. 
+All calls and discussion within this group are subject to the DASH-IF bylaws (can be found at: http://dashif.org/membership/) and the DASH-IF working procedures. All participants, by participating in this call agree that  their contributions are bound by [DASH-IF IPR policies](https://dash-industry-forum.github.io/docs/DASH-IF-IPR-Policy-Appendix-B-11-06-2018.pdf) as it applies to the DASH-IF members. 
 
 
 ## Logistics
@@ -38,7 +38,7 @@ All calls and discussion within this group are subject to the DASH-IF bylaws (ca
   - DASH-IF members can sign-up directly. If you are not DASH-IF member, please contact [DASH-IF IOP chair](mailto:tsto@qti.qualcomm.com) if you want to be signed up. 
 - Webex Calls: 
   - every other Wednesday 7am pdt/4pm cest starting from June 23rd for three months until September 30, 2021
-  - https://dashif.my.webex.com/dashif.my/j.php?MTID=m7ec0c86a81407f396ee824d5c85c301a
+  - https://docs.google.com/document/d/1iaWO_oAjUH-Mvrj4bzzD06YENu48RXaZx5DrJOyoT6s/edit
   - Meeting number: 182 524 4638
   - Password: 4ymTMGuFp74
   - Join by phone
@@ -59,9 +59,15 @@ All calls and discussion within this group are subject to the DASH-IF bylaws (ca
 
 ## Documents
 - [Initially presented slides](https://dash-industry-forum.github.io/docs/FINAL-PUBLIC-WebRTC-based%20Premium%20Streaming%20Ecosystem.pdf)
-- [Online Version of Draft Report](https://docs.google.com/document/d/1vwtJCgE95d2bPthwfKlvGxPiElgqJQZf7rtz_g_ZgZw/edit?usp=sharing)
+- [Online Version of Draft Report](https://docs.google.com/document/d/1iaWO_oAjUH-Mvrj4bzzD06YENu48RXaZx5DrJOyoT6s/edit)
 
 ## Minutes and Agenda
 - Minutes are collected here: https://github.com/Dash-Industry-Forum/webRTC/discussions
 - [Kickoff June 11, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/2)
 - [June 23, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/3)
+- [July 07, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/5)
+- [July 21, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/6)
+- [August 03, 2021](https://github.com/Dash-Industry-Forum/webRTC/discussions/7)
+
+## Report
+
