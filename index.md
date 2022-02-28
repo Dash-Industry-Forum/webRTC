@@ -3,9 +3,9 @@
 ## Introduction
 On May 28 this year, as part of our virtual special session series, DASH-IF invited the colleagues from Verizon Media and Phenix Real Time Solutions to provide as an overview on a WebRTC-based Premium Streaming Ecosystem. WebRTC is the foundational technology for real-time streaming online and as such has widespread support across browsers. It is used widely across many applications. However, the use of real-time streaming for professionally-produced content is highlighting gaps in WebRTC, creating the need for industry collaboration. This [talk](https://dash-industry-forum.github.io/docs/FINAL-PUBLIC-WebRTC-based%20Premium%20Streaming%20Ecosystem.pdf) explored some of these key areas and sketch out possible ways forward for the industry.
 
-Based on this discussion, a (public taskforce)[http://dashif.org/webRTC/taskforce] was formed. This task force created a (report)[http://dashif.org/webRTC/report] that was published on March 1st, 2022. The conclusions of the report are provided
+Based on this discussion, a (public taskforce)[http://dashif.org/webRTC/taskforce] was formed. This task force created a (report)[http://dashif.org/webRTC/report] that was published on March 1st, 2022. Based on the conclusion of the report, DASH-IF initiated a survey: https://forms.gle/Yy89GGeMsXYQixBZ6. Please respond by latest April 15, 2022 if you are interested in this topic.
 
-## Summary
+## Summary of Report
 Based on this report, the advantages of integrating DASH services with WebRTC are clear. This report has provided different use cases and summarized service requirements. A number of these use cases, especially those discussed in clause 5.2, such as insertion of pre-recorded DASH-based ads into live streams delivered via WebRTC, require the combination of DASH and WebRTC.
 
 Some argue WebRTC is the best or only option for delivering live content, and insist that DASH is the only solution for other cases, but there are a number of synergies when combining DASH and WebRTC. The two have a number of complementary aspects for content acquisition and rendering which can be used to create hybrid operations instead of being separated into distinct entities. This is discussed at length in clause 5 of this document. One example of unified technologies is the hybrid client, which combines the DASH player and the WebRTC stack to provide the integrated user experience required for use cases that require WebRTC-supported  interactivity alongside DASH content.
@@ -57,4 +57,8 @@ Questions to members and organizations should be set up by a survey and should i
 * Participation interest to develop deployment guidelines, and if interested, in which parts of the guidelines (negotiation, DASH/WebRTC player, etc.)
 * Whether the development activity should be members only or open to all interested parties
 * If there are concerns if DASH-IF takes on the duty and if interested parties not yet DASH-IF members would consider joining DASH-IF
-* What output would you expect from the work: guidelines, reference services, reference clients and/or servers; and which of these would you be willing to contribute
+* What output would you expect from the work: guidelines, reference services, reference clients and/or servers; and which of these would you be willing to contribute.
+
+## Survey
+
+Based on the conclusion of the report, DASH-IF initiated a survey: https://forms.gle/Yy89GGeMsXYQixBZ6. Please respond by latest April 15, 2022 if you are interested in this topic.
