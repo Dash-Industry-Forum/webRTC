@@ -16,17 +16,17 @@ This report also summarizes existing technologies that are not yet in DASH and W
 * Work on extensions to DASH and WebRTC as described below.
 
 For extensions to WebRTC, the following is recommended:
-* Define and select appropriate session management/signaling protocol (potentially based on WHIP/WHAP or WHSNP)  [http://dashif.org/webRTC/report#clause 4.3]
-    * Define control protocol for dynamic stream switching that does not require SDP renegotiation  [http://dashif.org/webRTC/report#clause 5.6]
-* Continue development of methods for additional security of streams [http://dashif.org/webRTC/report#clause 4.4]
-* Define a standardized means to deliver subtitles, closed captions, and other events  [http://dashif.org/webRTC/report#clause 5.9.8]
-* Continue development of a mechanism for time synchronization of timed metadata and DASH periods [http://dashif.org/webRTC/report#clause 5.9.9]
-* Collection of metrics and client metadata for WebRTC sessions and translation to existing metrics and client metadata, transmission via APIs. [http://dashif.org/webRTC/report#clause 5.4]
+* Define and select appropriate session management/signaling protocol (potentially based on WHIP/WHAP or WHSNP)  [https://dashif.org/webRTC/report#43-session-negotiation]
+    * Define control protocol for dynamic stream switching that does not require SDP renegotiation  [https://dashif.org/webRTC/report#56-session-modification]
+* Continue development of methods for additional security of streams [https://dashif.org/webRTC/report#44-webrtc-security-and-drm]
+* Define a standardized means to deliver subtitles, closed captions, and other events  [https://dashif.org/webRTC/report#598-captionssubtitles]
+* Continue development of a mechanism for time synchronization of timed metadata and DASH periods [https://dashif.org/webRTC/report#599-events-and-timed-metadata]
+* Collection of metrics and client metadata for WebRTC sessions and translation to existing metrics and client metadata, transmission via APIs. [https://dashif.org/webRTC/report#54-example-client-architecture]
 
 For DASH the following is recommended:
 * Determine APIs to be used between WebRTC clients and DASH clients [http://dashif.org/webRTC/report#clause 5.4]
-* Define how WebRTC information is represented in MPDs [http://dashif.org/webRTC/report#clause 5.9.7]
-* Determine whether DASH and WebRTC can both render to a single browser's video element or switch between two video elements [http://dashif.org/webRTC/report#clause 5.9.5]
+* Define how WebRTC information is represented in MPDs [https://dashif.org/webRTC/report#597-webrtc-representation]
+* Determine whether DASH and WebRTC can both render to a single browser's video element or switch between two video elements [https://dashif.org/webRTC/report#595-webrtc-content-continuity-and-timeline]
 * Support hybrid operations with WebRTC and DASH HTTP-based operations
 
 In order to address the different topics, different organizations may have to be involved. However, it is expected that based on the analysis and proprietary deployments, quite many technology enablers are in place and a basic system can be deployed. It is considered beneficial to create deployment guidelines to support interoperability for WebRTC-based streaming based on existing practices. Such guidelines may also be supported by reference tools and/or test services.
@@ -46,15 +46,11 @@ This report and the invitation is preferably shared with organizations such as I
 
 The following timeline is considered:
 
-
-
 * Disseminate and share the information from March 1, 2022 onwards and ask for feedback until April 15, 2022.
 * Unless the feedback is negative or there are specific concerns, DASH-IF will start a dedicated, members-only activity on this matter by May 1, 2022. 
 * The primary objective of the initial activity is to deliver interoperability guidelines for DASH-based WebRTC streaming, to be published for community review by the end of 2022 under the DASH-IF publication policy.
 
 Questions to members and organizations should be set up by a survey and should include:
-
-
 
 * Question on interest on such a project in general
 * The timeliness of the activity
