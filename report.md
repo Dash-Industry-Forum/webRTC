@@ -1,18 +1,12 @@
-## DASH-IF Report on 
-
-
-## WebRTC-Based Streaming and DASH Aspects
+## DASH and WebRTC-Based Streaming
 
 
 ### Scope
 
-This report describes the use cases made possible by integrating WebRTC Streaming into the DASH ecosystem as well as the technical considerations that should be taken into account in order to achieve successful integration. The document is primarily commercial and serves as a guideline for future technical work in the context of DASH. Exploration website is [https://dashif.org/webRTC/](https://dashif.org/webRTC/). 
+This report describes use cases made possible by integrating WebRTC Streaming into the DASH workflows as well as the technical considerations that should be taken into account in order to achieve successful integration. The document is primarily informative and information-collecting. It serves as a preparation and guidance for future technical work in the context of DASH and webRTC-based Streaming. The report was developed by a public efforts in (DASH-IF)[https://dashif.org]. The website of the exploration TF is [https://dashif.org/webRTC/taskforce](https://dashif.org/webRTC/taskforce). 
 
 
 ### Contributors
-
-
-
 * Thomas Stockhammer, Qualcomm
 * Ali C. Begen, Comcast
 * Julia Kenyon, Phenix RTS
