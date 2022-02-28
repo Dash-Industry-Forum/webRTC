@@ -351,7 +351,146 @@ For each of the use cases, it is beneficial to document answers to any of such q
 
 ### 3.3. Expected Impacts for the Use Cases 
 
+<table>
+  <tr>
+   <td>
+   </td>
+   <td><strong>Summary</strong>
+   </td>
+   <td><strong>KPI Impacts</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>1
+   </td>
+   <td>Interactive live concerts/music events
+   </td>
+   <td>EEL less than 500 ms
+   </td>
+  </tr>
+  <tr>
+   <td>2
+   </td>
+   <td>Sports betting
+   </td>
+   <td>EEL less than 500 ms.
+   </td>
+  </tr>
+  <tr>
+   <td>3
+   </td>
+   <td>Interacting with broadcast
+   </td>
+   <td>EEL less than 500 ms
+<p>
+ADG less than 100 ms
+<p>
+In terms of network scalability, same consideration as 1.
+   </td>
+  </tr>
+  <tr>
+   <td>4
+   </td>
+   <td>Interacting with other audience
+   </td>
+   <td>EEL less than 500 ms
+<p>
+ADG less than 100 ms
+<p>
+In terms of network scalability, same consideration as 1.
+   </td>
+  </tr>
+  <tr>
+   <td>5
+   </td>
+   <td>Cloud game streaming
+   </td>
+   <td>RID is 
+<ul>
 
+<li>less than 100 ms for fast paced games (FPG) 
+
+<li>Several 100 ms up to 1 second for other types of games. 
+
+<p>
+Uplink latency for actions is typically taking 10-50 ms. Hence, EEL is typically
+<ul>
+
+<li>less than 50 ms for FPG
+
+<li>Less than 200-400 ms for RPG
+
+<p>
+In terms of network scalability and assuming N users, cloud gaming runs
+<ol>
+
+<li>One scene generation process
+
+<li>One viewport rendering for each user, i.e., N times
+
+<li>One distribution encoder for each user, i.e., N times
+
+<li>One encryption process per user
+
+<li>One ingest stream per user
+
+<li>Total number of streams typically N
+
+<p>
+ 
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>6
+   </td>
+   <td>Game spectator mode
+   </td>
+   <td>Without interaction and looking at a player view, there is no latency issue per se, or it is similar to regular sports watching.
+<p>
+If one independently moves in the scene, then the latency gets quite critical in case the scene is rendered on the network to remain immersed. 50 ms and lower is needed.
+<p>
+In case interactions are added that impact the scene, similar numbers as for use case 1 apply.
+   </td>
+  </tr>
+  <tr>
+   <td>7
+   </td>
+   <td>In-stadium interactivity
+   </td>
+   <td>EEL less than 1000 ms
+<p>
+ADG less than 100 ms
+   </td>
+  </tr>
+  <tr>
+   <td>8
+   </td>
+   <td>Lower-latency broadcasting
+   </td>
+   <td>DL less than DASH
+<p>
+TA better than DASH-ABR
+   </td>
+  </tr>
+  <tr>
+   <td>9
+   </td>
+   <td>Interleaving live and pre-recorded content
+   </td>
+   <td>EEL less than 500 ms
+<p>
+ADG less than 200 ms
+<p>
+In terms of network scalability, same consideration as 1.
+   </td>
+  </tr>
+</table>
 
 ## 4. Available and Ongoing Work in Industry and Standards for WebRTC Streaming
 
