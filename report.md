@@ -351,7 +351,118 @@ For each of the use cases, it is beneficial to document answers to any of such q
 
 ### 3.3. Expected Impacts for the Use Cases 
 
-
+<table>
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 26%" />
+<col style="width: 70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Summary</strong></th>
+<th><strong>KPI Impacts</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Interactive live concerts/music events</td>
+<td><p>EEL less than 500 ms</p>
+<p>In terms of network scalability and assuming N users, cloud gaming
+runs</p>
+<ol type="1">
+<li><p>One scene generation process</p></li>
+<li><p>One or very few viewports, P = 1 … 5</p></li>
+<li><p>One distribution encoder generating multiple variants, i.e., N
+times, typically V = 1, …, 10</p></li>
+<li><p>One encryption process per Variant, possibly 2 encryption schemes
+(cenc, cbcs), i.e. E = 1, … 2. </p></li>
+<li><p>Total number of ingest streams S = 1, … 100, independent of the
+number of users. </p></li>
+<li><p>Total number of delivery streams is D = N, as it is
+unicast.</p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Sports betting</td>
+<td><p>EEL less than 500 ms.</p>
+<p>ADG less than 200 ms</p>
+<p>In terms of network scalability, same consideration as 1.</p></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Interacting with broadcast</td>
+<td><p>EEL less than 500 ms</p>
+<p>ADG less than 100 ms</p>
+<p>In terms of network scalability, same consideration as 1.</p></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Interacting with other audience</td>
+<td><p>EEL less than 500 ms</p>
+<p>ADG less than 100 ms</p>
+<p>In terms of network scalability, same consideration as 1.</p></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Cloud game streaming</td>
+<td><p>RID is </p>
+<ul>
+<li><p>less than 100 ms for fast paced games (FPG) </p></li>
+<li><p>Several 100 ms up to 1 second for other types of games. </p></li>
+</ul>
+<p>Uplink latency for actions is typically taking 10-50 ms. Hence, EEL
+is typically</p>
+<ul>
+<li><p>less than 50 ms for FPG</p></li>
+<li><p>Less than 200-400 ms for RPG</p></li>
+</ul>
+<p>In terms of network scalability and assuming N users, cloud gaming
+runs</p>
+<ol type="1">
+<li><p>One scene generation process</p></li>
+<li><p>One viewport rendering for each user, i.e., N times</p></li>
+<li><p>One distribution encoder for each user, i.e., N times</p></li>
+<li><p>One encryption process per user</p></li>
+<li><p>One ingest stream per user</p></li>
+<li><p>Total number of streams typically N</p></li>
+</ol>
+<p> </p></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Game spectator mode</td>
+<td><p>Without interaction and looking at a player view, there is no
+latency issue per se, or it is similar to regular sports watching.</p>
+<p>If one independently moves in the scene, then the latency gets quite
+critical in case the scene is rendered on the network to remain
+immersed. 50 ms and lower is needed.</p>
+<p>In case interactions are added that impact the scene, similar numbers
+as for use case 1 apply.</p></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>In-stadium interactivity</td>
+<td><p>EEL less than 1000 ms</p>
+<p>ADG less than 100 ms</p></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Lower-latency broadcasting</td>
+<td><p>DL less than DASH</p>
+<p>TA better than DASH-ABR</p></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Interleaving live and pre-recorded content</td>
+<td><p>EEL less than 500 ms</p>
+<p>ADG less than 200 ms</p>
+<p>In terms of network scalability, same consideration as 1.</p></td>
+</tr>
+</tbody>
+</table>
 
 ## 4. Available and Ongoing Work in Industry and Standards for WebRTC Streaming
 
