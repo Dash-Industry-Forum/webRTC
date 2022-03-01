@@ -1,9 +1,10 @@
-# DASH and WebRTC-Based Streaming
+# DASH-IF Report on DASH and WebRTC-Based Streaming
 
+![alt_text](images/dashif-logo-reverse-424x150.jpg "image_tooltip")
 
 ## Scope
 
-This report describes use cases made possible by integrating WebRTC Streaming into the DASH workflows as well as the technical considerations that should be taken into account in order to achieve successful integration. The document is primarily informative and information-collecting. It serves as a preparation and guidance for future technical work in the context of DASH and webRTC-based Streaming. The report was developed by a public efforts in (DASH-IF)[https://dashif.org]. The website of the exploration TF is [https://dashif.org/webRTC/taskforce](https://dashif.org/webRTC/taskforce). 
+This report describes use cases made possible by integrating WebRTC Streaming into the DASH workflows as well as the technical considerations that should be taken into account in order to achieve successful integration. The document is primarily informative and information-collecting. It serves as a preparation and guidance for future technical work in the context of DASH and webRTC-based Streaming. The report was developed by a public efforts in (DASH-IF)[https://dashif.org]. The website of the exploration TF is [https://dashif.org/webRTC/taskforce](https://dashif.org/webRTC/taskforce). Any comments may be submitted through the (github issues)[https://github.com/Dash-Industry-Forum/webRTC/issues]. Along with the report, DASH-IF also launched a (survey on potential next steps)[https://forms.gle/Yy89GGeMsXYQixBZ6] - please respond by April 15, 2022.
 
 ## Contributors
 * Thomas Stockhammer, Qualcomm
@@ -17,6 +18,7 @@ This report describes use cases made possible by integrating WebRTC Streaming in
 * Piers O’Hanlon, BBC
 * Kashyap Kammachi Sreedhar, Nokia
 * Yuriy Reznik, Brightcove
+* and several others
 
 ## Table of Contents
  - [Scope](#scope)
