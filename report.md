@@ -1,6 +1,6 @@
 # DASH-IF Report: DASH and WebRTC-Based Streaming
 
-![alt_text](images/dashif-logo-reverse-424x150.jpg "image_tooltip")
+![alt_text](images/webrtc-dash.png "image_tooltip")
 
 ## Scope
 
